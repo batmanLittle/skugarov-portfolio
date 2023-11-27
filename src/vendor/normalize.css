@@ -12,11 +12,13 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   height: 100%;
+  
 }
 
 * {
   box-sizing: border-box;
   font-family: Aeroport;
+  
 }
 
 /* Sections
@@ -59,8 +61,27 @@ h1 {
   padding-bottom: 8px;
   width: max-content;
   margin: 0px;
+  margin-top: -1px;
+  z-index: 5;
 }
 
+span{
+  color: var(--darkyellow-color);
+}
+
+p{
+margin: 0px;
+padding: 3px 7px;
+color: rgba(192, 192, 192, 1);
+background-color: black;
+width: max-content;
+height: max-content;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+letter-spacing: normal;
+}
 /* Grouping content
      ========================================================================== */
 
