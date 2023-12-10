@@ -1,0 +1,29 @@
+.free-time__title-right {
+  margin-right: 0px;
+  margin-left: auto;
+}
+.free-time {
+  z-index: 5;
+}
+
+@media screen and (max-width: 320px) {
+  .free-time__title-one {
+    z-index: 0;
+    margin-bottom: -8px;
+  }
+  .free-time__title-two {
+    z-index: 1;
+    margin-bottom: -8px;
+    width: 100%;
+    text-align: center;
+  }
+  .free-time__title-three {
+    margin-left: 20px;
+    z-index: 2;
+    margin-bottom: -8px;
+  }
+  .free-time__title-right {
+    z-index: 2;
+    margin-bottom: -8px;
+  }
+}

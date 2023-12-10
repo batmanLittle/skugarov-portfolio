@@ -4,11 +4,14 @@
   position: relative;
   width: 100%;
 }
+
 .portfolio__photo {
   position: absolute;
   margin: auto;
   position: absolute;
-  top: 171px; left: 0px; right: 0px;
+  top: 171px;
+  left: 0px;
+  right: 0px;
   width: max-content;
   padding-top: 189px;
   padding-left: 16px;
@@ -18,38 +21,129 @@
   z-index: 0;
 }
 
-.portfolio__title{
+.portfolio__title {
   display: flex;
+  margin-bottom: -8px;
 }
 
-.portfolio__title_right {
-  margin-right: 0px;
-  margin-left: auto;
-  
-}
-
-.portfolio__title-right {
+.portfolio__title_one {
   margin-right: 0px;
   margin-left: 0px;
+  z-index: 4;
 }
 
-.portfolio__title-profession{
+.portfolio__title_two {
   width: 100%;
+  z-index: 3;
 }
 
-.portfolio__spblue{
+.portfolio__title_three {
+  z-index: 2;
+}
+
+.portfolio__title_text-write {
+  margin-left: 201px;
+}
+
+.portfolio__title_text-blog {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.portfolio__title_four {
+  z-index: 1;
+}
+
+.portfolio__spblue {
   color: var(--blue-color);
 }
 
-.portfolio__block-red{
+.portfolio__title_four_text {
+  margin-left: 188px;
+  margin-top: 8px;
+  z-index: 1;
+}
+
+.portfolio__title_four_text-left {
+  padding: 0px;
+  margin-left: 62px;
+}
+
+.portfolio__block-red {
   background-color: var(--red-color);
   width: 12px;
   height: 410px;
 }
 
-.portfolio__title_text-cv{
-margin-right: 0px;
-margin-left: auto;
+.portfolio__title_text-cv {
+  margin-right: 0px;
+  margin-left: auto;
+}
 
+.portfolio__title_five_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-top: 8px;
+}
 
+@media screen and (max-width: 320px) {
+  .portfolio__photo {
+    top: 62px;
+    padding-top: 104px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+  }
+
+  .portfolio__photo_img {
+    height: 213px;
+    width: 213px;
+  }
+
+  .portfolio__title {
+    display: flex;
+    margin-bottom: -8px;
+  }
+
+  .portfolio__title_one {
+    margin-right: 0px;
+    margin-left: auto;
+    z-index: 4;
+  }
+
+  .portfolio__title_text-cv {
+    display: none;
+  }
+
+  .portfolio__title_four_text {
+    display: none;
+  }
+
+  .portfolio__title_text-write {
+    display: none;
+  }
+
+  .portfolio__title_text-blog {
+    display: none;
+  }
+
+  .portfolio__block-red {
+    background-color: var(--red-color);
+    width: 5px;
+    height: 325px;
+  }
+
+  .portfolio__title_five_text {
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+
+  .portfolio__title_two {
+    width: max-content;
+    z-index: 3;
+    margin-left: 10px;
+    margin-bottom: -8px;
+    margin-right: 15px;
+  }
 }

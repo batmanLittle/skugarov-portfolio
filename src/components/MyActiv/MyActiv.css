@@ -1,0 +1,227 @@
+.my-activ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-activ__red-block {
+  background-color: var(--red-color);
+  width: 12px;
+  height: 685px;
+  z-index: 1;
+}
+
+.my-activ__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-activ__header {
+  background-image: url(../../images/my-activ_foto1.svg);
+  z-index: 1;
+  width: 930px;
+  height: 263px;
+}
+
+.my-activ__footer {
+  background-image: url(../../images/my-activ_foto2.svg);
+  z-index: 1;
+  width: 795px;
+  height: 301px;
+}
+
+.my-activ__header_block-one {
+  background-color: inherit;
+}
+
+.my-activ__header_span {
+  color: var(--grey-color);
+  text-decoration: line-through;
+  background-color: inherit;
+}
+
+.my-activ__header_block {
+  display: flex;
+}
+
+.my-activ__header_profession {
+  background-color: var(--red-color);
+  margin-right: -28px;
+  margin-left: auto;
+  margin-bottom: -3px;
+  margin-top: auto;
+}
+
+.my-activ__header_underline {
+  text-decoration: underline;
+  color: var(--grey-color);
+  background-color: inherit;
+}
+
+.my-activ__header_block-two_text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+
+  width: max-content;
+  padding-right: 27px;
+}
+
+.my-activ__header_block-two_paragraph {
+  background-color: inherit;
+}
+
+.my-activ__header_block-two {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-activ__header_block-two_title {
+  margin-top: 23px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+}
+
+.my-activ__info_subtitle {
+  margin: 0px;
+  background-color: var(--red-color);
+  margin-left: 48%;
+}
+
+.my-activ__footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-activ__footer_paragraph {
+  background-color: inherit;
+  padding-top: 7px;
+  padding-left: 8px;
+}
+
+.my-activ__footer_paragraph-six {
+  background-color: inherit;
+  margin-right: 11px;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.my-activ__footer_block {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 12px;
+}
+
+.my-activ__footer_block-title {
+  margin: 0px;
+  width: min-content;
+}
+
+.my-activ__footer_block-text {
+  background-color: inherit;
+  margin-bottom: 0px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 320px) {
+  .my-activ {
+    margin-top: 9px;
+  }
+
+  .my-activ__red-block {
+    width: 5px;
+    height: 750px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .my-activ__header {
+    background-image: url(../../images/my-activ_foto1-mobile.svg);
+    z-index: 1;
+    width: 320px;
+    height: 381px;
+  }
+
+  .my-activ__footer {
+    background-image: url(../../images/my-activ_foto2-mobile.svg);
+    z-index: 1;
+    width: 320px;
+    height: 244px;
+  }
+
+  .my-activ__info_subtitle {
+    margin: 0px;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8px;
+    letter-spacing: 0.3px;
+  }
+
+  .my-activ__header_block {
+    padding-top: 4px;
+    gap: 32px;
+  }
+
+  .my-activ__header_block-one_title {
+    background-image: url(../../images/банк.svg);
+    background-repeat: no-repeat;
+    z-index: 6;
+    width: 52px;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+
+  .my-activ__header_block-one {
+    background-color: inherit;
+    padding: 0px;
+  }
+
+  .my-activ__header_block-two {
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+    margin-top: 5px;
+    gap: 6px;
+  }
+
+  .my-activ__footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+  }
+
+  .my-activ__footer_block-title {
+    background-image: url(../../images/free-time.svg);
+    z-index: 6;
+    background-repeat: no-repeat;
+    min-width: 52px;
+    height: 170px;
+  }
+
+  .my-activ__footer_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+  }
+
+  .my-activ__footer_paragraph-one {
+    margin-left: 22px;
+    padding: 0px;
+    margin-bottom: 8px;
+  }
+
+  .my-activ__footer_paragraph {
+    background-color: inherit;
+    padding: 0px;
+  }
+
+  .my-activ__footer_block-text {
+    background-color: inherit;
+    margin-bottom: 12px;
+  }
+}

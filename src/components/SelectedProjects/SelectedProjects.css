@@ -1,0 +1,185 @@
+.selected-projects__block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 99px;
+}
+
+.selected-projects {
+  margin-bottom: 256px;
+}
+
+.selected-projects__title {
+  margin-bottom: -14px;
+}
+
+.selected-projects__title-one {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.selected-projects__block-three {
+  z-index: 3;
+  display: flex;
+}
+
+.selected-projects__block-three_text {
+  margin-top: 14px;
+}
+
+.selected-projects__cards {
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 56px;
+  row-gap: 0px;
+  position: relative;
+  margin-top: -111px;
+  justify-content: center;
+}
+
+.card__blue {
+  background-color: var(--blue-color);
+}
+
+.card__red {
+  background-color: rgba(219, 58, 47, 1);
+}
+
+.card__green {
+  background-color: var(--green-color);
+}
+
+.card__burgundy {
+  background-color: rgba(74, 41, 48, 1);
+}
+
+.card__black {
+  background-color: black;
+}
+
+.card__yellow {
+  background-color: rgba(217, 240, 94, 1);
+}
+
+.card__block-one_text-three {
+  margin-left: 141px;
+}
+
+.card__text-hide {
+  display: none;
+}
+
+.card__block-two_text-one {
+  margin-left: 19px;
+}
+
+.card__block-two_text-two {
+  margin-left: 96px;
+}
+
+.card__block-two_text-three {
+  margin-left: 40px;
+}
+
+.card__block-three_text-two {
+  margin-left: 34px;
+}
+
+.card__block-four_text-two {
+  margin-left: 30px;
+}
+
+.card__block-five_text-two {
+  margin-left: 49px;
+}
+
+.card__block-five_text-four {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .selected-projects__block-three_text {
+    display: none;
+  }
+  .selected-projects__block {
+    margin-top: 85px;
+  }
+
+  .selected-projects {
+    margin-bottom: 256px;
+    position: relative;
+  }
+
+  .selected-projects__title {
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-bottom: -5px;
+  }
+
+  .selected-projects__title-one {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-bottom: -5px;
+  }
+
+  .selected-projects__block-three {
+    z-index: 3;
+    display: flex;
+    margin-bottom: -5px;
+  }
+
+  .selected-projects__cards {
+    margin-top: 25px;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0px;
+    row-gap: 25px;
+
+    justify-content: flex-start;
+  }
+
+  .card__red {
+    background-color: rgba(219, 58, 47, 1);
+    margin-left: -28px;
+    margin-top: 57px;
+  }
+
+  .card__burgundy {
+    background-color: rgba(74, 41, 48, 1);
+    margin-left: -28px;
+    margin-top: 57px;
+  }
+
+  .card__block-one_text-three {
+    margin-left: 55px;
+  }
+
+  .card__block-two_text-one {
+    margin-left: 8px;
+  }
+
+  .card__block-two_text-two {
+    margin-left: 58px;
+  }
+
+  .card__block-two_text-three {
+    margin-left: 31px;
+  }
+
+  .card__block-three_text-two {
+    margin-left: 20px;
+  }
+
+  .card__block-four_text-two {
+    margin-left: 0 px;
+  }
+
+  .card__block-five_text-two {
+    margin-left: 37px;
+  }
+
+  .card__block-five_text-four {
+    margin-left: 10px;
+  }
+}
