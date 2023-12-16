@@ -14,6 +14,23 @@ function App() {
   //   }
   // });
 
+  // function zoom(screenWidth) {
+  //   const baseWidth = 1280; // базовая ширина экрана
+  //   const x = screenWidth / baseWidth; // рассчитываем значение x
+  //   return x;
+  // }
+
+  // const x = 1;
+  // const screenWidth = 1280;
+  // const zoomedWidth = zoom(x, screenWidth);
+  // console.log(zoomedWidth);
+
+  // useEffect(() => {
+  //   const screenWidth = 1920;
+  //   const x = zoom(screenWidth);
+  //   console.log(x);
+  // });
+
   return (
     <div className="app">
       <LowerSection />

@@ -2,26 +2,57 @@ import "./Portfolio.css";
 import photo from "../../images/photo-portfolio.svg";
 import React, { useState, useEffect } from "react";
 function Portfolion() {
-  const [mobileScreen, setMobileScreen] = useState(false);
+  const [sizeWidth, setSizeWidth] = useState(false);
 
-  const display = window.innerWidth;
-
-  function displaydd() {
-    if (display == 320) {
-      setMobileScreen(true);
-    }
-    if (display > 321) {
-      setMobileScreen(false);
-    }
-  }
-
-  useEffect(() => {
-    displaydd();
-  }, []);
+  // function displaydd() {
+  //   const display = window.innerWidth;
+  //   if (display < 768) {
+  //     setMobileScreen(true);
+  //     // console.log(mobileScreen);
+  //   } else {
+  //     setMobileScreen(false);
+  //     // console.log(mobileScreen);
+  //   }
+  // }
 
   useEffect(() => {
-    window.addEventListener("resize", displaydd);
+    window.addEventListener("resize", () => {
+      const display = window.innerWidth;
+      console.log(display);
+      if (display == 400) {
+        setSizeWidth(true);
+        // console.log(mobileScreen);
+      } else {
+        setSizeWidth(false);
+        // console.log(mobileScreen);
+      }
+    });
   });
+
+  // useEffect(() => {
+  //   displaydd();
+  // }, []);
+
+  // useEffect(() => {
+  //   window.addEventListener("resize", () => {
+  //     const display = window.innerWidth;
+  //     console.log(display);
+  //   });
+  // }, []);
+
+  // const handleWindowResize =
+  //   (() => {
+  //     setWindowSize(window.innerWidth);
+  //   },
+  //   []);
+
+  // useEffect(() => {
+  //   window.addEventListener("resize", handleWindowResize);
+
+  //   return () => {
+  //     window.removeEventListener("resize", handleWindowResize);
+  //   };
+  // }, [handleWindowResize]);
 
   return (
     <div className="portfolio">
@@ -32,7 +63,7 @@ function Portfolion() {
         <p className="portfolio__title_text-cv">CV</p>
         <h1 className="portfolio__title_one">АНТОН СКУГАРОВ</h1>
       </div>
-      {!mobileScreen ? (
+      {!sizeWidth ? (
         <h1 className="portfolio__title_two">
           <span>ДИЗАИНЕР</span> & ПРОЕКТИ
         </h1>
@@ -42,7 +73,7 @@ function Portfolion() {
         </h1>
       )}
 
-      {!mobileScreen ? (
+      {!sizeWidth ? (
         <div className="portfolio__title">
           <h1 className="portfolio__title_three">—РОВЩИК</h1>
           <p className="portfolio__title_text-write">НАПИСАТЬ МНЕ</p>
