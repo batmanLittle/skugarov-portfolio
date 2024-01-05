@@ -6,7 +6,7 @@
   z-index: 5;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .free-time__title-one {
     z-index: 0;
     margin-bottom: -8px;

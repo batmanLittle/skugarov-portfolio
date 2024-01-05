@@ -33,7 +33,6 @@
 }
 
 .portfolio__title_two {
-  width: 100%;
   z-index: 3;
 }
 
@@ -87,7 +86,7 @@
   margin-top: 8px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .portfolio__photo {
     top: 62px;
     padding-top: 104px;

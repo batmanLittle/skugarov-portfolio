@@ -1,13 +1,13 @@
 .app {
-  margin: auto;
+  margin-top: 0px;
   background-color: rgba(192, 192, 192, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
   position: relative;
-  font-size: calc(1rem / zoom(1280px));
-  transform: translate(-50%, -50%) scale(calc(zoom(1280px) / 2));
+  /* font-size: calc(1rem / zoom(1280px));
+  transform: translate(-50%, -50%) scale(calc(zoom(1280px) / 2)); */
   --white-color: rgba(255, 255, 255, 1);
   --brown-color: rgba(74, 41, 48, 1);
   --blue-color: rgba(43, 28, 124, 1);
@@ -18,6 +18,6 @@
   --darkyellow-color: rgba(217, 240, 94, 1);
 }
 
-@function zoom($screen-width) {
+/* @function zoom($screen-width) {
   @return ($screen-width / 1280);
-}
+} */

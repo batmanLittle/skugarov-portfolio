@@ -4,35 +4,39 @@ import LowerSection from "../LowerSection/LowerSection";
 import React, { useState, useEffect } from "react";
 
 function App() {
-  // const [mobileScreen, setMobileScreen] = useState(false);
+  const [zoom, setZoom] = useState(1);
 
-  // useEffect(() => {
-  //   if (window.innerWidth > 320) {
-  //     setMobileScreen(false);
-  //   } else {
-  //     setMobileScreen(true);
-  //   }
-  // });
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
 
-  // function zoom(screenWidth) {
-  //   const baseWidth = 1280; // базовая ширина экрана
-  //   const x = screenWidth / baseWidth; // рассчитываем значение x
-  //   return x;
-  // }
+      if (width >= 769) {
+        if (width === 1280) {
+          setZoom(1);
+        } else {
+          setZoom(width / 1280);
+        }
+      }
+      if (width <= 768) {
+        if (width === 320) {
+          setZoom(1);
+        } else {
+          setZoom(width / 320);
+        }
+      }
+    };
 
-  // const x = 1;
-  // const screenWidth = 1280;
-  // const zoomedWidth = zoom(x, screenWidth);
-  // console.log(zoomedWidth);
+    handleResize();
 
-  // useEffect(() => {
-  //   const screenWidth = 1920;
-  //   const x = zoom(screenWidth);
-  //   console.log(x);
-  // });
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
-    <div className="app">
+    <div className="app" style={{ zoom: `${zoom}` }}>
       <LowerSection />
       <Main />
     </div>

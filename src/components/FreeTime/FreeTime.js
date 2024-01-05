@@ -3,7 +3,7 @@ import "./FreeTime.css";
 function FreeTime() {
   return (
     <div className="free-time">
-      {window.innerWidth > 320 ? (
+      {window.innerWidth > 768 ? (
         <>
           <h1>ЧТО СЕИЧАС ДЕЛАЮ,</h1>
           <h1 className="free-time__title-right">ГДЕ РАБОТАЮ ———</h1>

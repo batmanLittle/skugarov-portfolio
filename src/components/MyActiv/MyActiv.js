@@ -3,7 +3,7 @@ import "./MyActiv.css";
 function MyActiv() {
   return (
     <>
-      {window.innerWidth > 320 ? (
+      {window.innerWidth > 768 ? (
         <div className="my-activ">
           <div className="my-activ__info">
             <div className="my-activ__header">

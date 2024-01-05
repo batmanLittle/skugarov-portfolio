@@ -15,19 +15,19 @@ function Portfolion() {
   //   }
   // }
 
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      const display = window.innerWidth;
-      console.log(display);
-      if (display == 400) {
-        setSizeWidth(true);
-        // console.log(mobileScreen);
-      } else {
-        setSizeWidth(false);
-        // console.log(mobileScreen);
-      }
-    });
-  });
+  // useEffect(() => {
+  //   window.addEventListener("resize", () => {
+  //     const display = window.innerWidth;
+  //     console.log(display);
+  //     if (display == 320) {
+  //       setSizeWidth(true);
+  //       // console.log(mobileScreen);
+  //     } else {
+  //       setSizeWidth(false);
+  //       // console.log(mobileScreen);
+  //     }
+  //   });
+  // });
 
   // useEffect(() => {
   //   displaydd();
@@ -63,7 +63,7 @@ function Portfolion() {
         <p className="portfolio__title_text-cv">CV</p>
         <h1 className="portfolio__title_one">АНТОН СКУГАРОВ</h1>
       </div>
-      {!sizeWidth ? (
+      {window.innerWidth > 768 ? (
         <h1 className="portfolio__title_two">
           <span>ДИЗАИНЕР</span> & ПРОЕКТИ
         </h1>
@@ -73,7 +73,7 @@ function Portfolion() {
         </h1>
       )}
 
-      {!sizeWidth ? (
+      {window.innerWidth > 768 ? (
         <div className="portfolio__title">
           <h1 className="portfolio__title_three">—РОВЩИК</h1>
           <p className="portfolio__title_text-write">НАПИСАТЬ МНЕ</p>

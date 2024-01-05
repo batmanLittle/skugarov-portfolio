@@ -30,7 +30,7 @@
   z-index: 5;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 56px;
+  column-gap: 47px;
   row-gap: 0px;
   position: relative;
   margin-top: -111px;
@@ -97,7 +97,7 @@
   margin-left: 10px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .selected-projects__block-three_text {
     display: none;
   }
@@ -141,14 +141,16 @@
 
   .card__red {
     background-color: rgba(219, 58, 47, 1);
-    margin-left: -28px;
-    margin-top: 57px;
+    margin-left: auto;
+    margin-top: -228px;
+    margin-right: -5px;
   }
 
   .card__burgundy {
     background-color: rgba(74, 41, 48, 1);
-    margin-left: -28px;
-    margin-top: 57px;
+    margin-left: auto;
+    margin-top: -228px;
+    margin-right: -5px;
   }
 
   .card__block-one_text-three {
