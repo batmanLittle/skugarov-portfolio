@@ -33,7 +33,7 @@ function App() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [zoom]);
 
   return (
     <div className="app" style={{ zoom: `${zoom}` }}>

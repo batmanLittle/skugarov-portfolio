@@ -1,6 +1,7 @@
 .my-activ {
   display: flex;
   justify-content: space-between;
+
 }
 
 .my-activ__red-block {
@@ -8,11 +9,13 @@
   width: 12px;
   height: 685px;
   z-index: 1;
+  
 }
 
 .my-activ__info {
   display: flex;
   flex-direction: column;
+
 }
 
 .my-activ__header {
@@ -20,6 +23,7 @@
   z-index: 1;
   width: 930px;
   height: 263px;
+  background-repeat: no-repeat;
 }
 
 .my-activ__footer {
@@ -27,6 +31,7 @@
   z-index: 1;
   width: 795px;
   height: 301px;
+  background-repeat: no-repeat;
 }
 
 .my-activ__header_block-one {
@@ -68,6 +73,7 @@
 
 .my-activ__header_block-two_paragraph {
   background-color: inherit;
+  /* padding: 0px; */
 }
 
 .my-activ__header_block-two {
@@ -127,19 +133,30 @@
 @media screen and (max-width: 768px) {
   .my-activ {
     margin-top: 9px;
+    position: relative;
+
   }
 
+  .my-activ__info{
+    width: 100%;
+  }
   .my-activ__red-block {
     width: 5px;
     height: 750px;
     right: 0px;
     position: absolute;
+    z-index: 0;
+  }
+
+  .my-activ__header_block-two_paragraph {
+
+    padding: 0px;
   }
 
   .my-activ__header {
     background-image: url(../../images/my-activ_foto1-mobile.svg);
     z-index: 1;
-    width: 320px;
+    width: inherit;
     height: 381px;
   }
 
@@ -148,6 +165,7 @@
     z-index: 1;
     width: 320px;
     height: 244px;
+    width: inherit;
   }
 
   .my-activ__info_subtitle {
@@ -171,7 +189,7 @@
     width: 52px;
     height: 90px;
     margin-top: 0px;
-    margin-left: 5px;
+    margin-left: 3px;
     margin-bottom: 0px;
   }
 
@@ -183,9 +201,10 @@
   .my-activ__header_block-two {
     display: flex;
     flex-direction: column;
-    margin-left: 58px;
+    margin-left: 18%;
     margin-top: 5px;
     gap: 6px;
+    
   }
 
   .my-activ__footer {
@@ -223,5 +242,8 @@
   .my-activ__footer_block-text {
     background-color: inherit;
     margin-bottom: 12px;
+  }
+  .my-activ__footer_block-contacts{
+    padding: 0px;
   }
 }

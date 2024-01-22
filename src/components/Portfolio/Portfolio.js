@@ -1,59 +1,7 @@
 import "./Portfolio.css";
 import photo from "../../images/photo-portfolio.svg";
-import React, { useState, useEffect } from "react";
+
 function Portfolion() {
-  const [sizeWidth, setSizeWidth] = useState(false);
-
-  // function displaydd() {
-  //   const display = window.innerWidth;
-  //   if (display < 768) {
-  //     setMobileScreen(true);
-  //     // console.log(mobileScreen);
-  //   } else {
-  //     setMobileScreen(false);
-  //     // console.log(mobileScreen);
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", () => {
-  //     const display = window.innerWidth;
-  //     console.log(display);
-  //     if (display == 320) {
-  //       setSizeWidth(true);
-  //       // console.log(mobileScreen);
-  //     } else {
-  //       setSizeWidth(false);
-  //       // console.log(mobileScreen);
-  //     }
-  //   });
-  // });
-
-  // useEffect(() => {
-  //   displaydd();
-  // }, []);
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", () => {
-  //     const display = window.innerWidth;
-  //     console.log(display);
-  //   });
-  // }, []);
-
-  // const handleWindowResize =
-  //   (() => {
-  //     setWindowSize(window.innerWidth);
-  //   },
-  //   []);
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", handleWindowResize);
-
-  //   return () => {
-  //     window.removeEventListener("resize", handleWindowResize);
-  //   };
-  // }, [handleWindowResize]);
-
   return (
     <div className="portfolio">
       <div className="portfolio__photo">

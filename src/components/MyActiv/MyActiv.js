@@ -39,7 +39,7 @@ function MyActiv() {
                 </p>
               </div>
 
-              <div className="my-activ__header_block-two">
+              {/* <div className="my-activ__header_block-two">
                 <h2 className="my-activ__header_block-two_title">
                   БЛАНК
                   <br /> БАНК
@@ -62,10 +62,10 @@ function MyActiv() {
                     &emsp;&emsp;&emsp;&emsp;умножают идеи и друг друга
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <p className="my-activ__info_subtitle">В СВОБОДНОЕ ВРЕМЯ</p>
-            <div className="my-activ__footer">
+            {/* <p className="my-activ__info_subtitle">В СВОБОДНОЕ ВРЕМЯ</p> */}
+            {/* <div className="my-activ__footer">
               <p className="my-activ__footer_paragraph">
                 Веду телеграмм-канал «Repo». Публикую «мясо» <br />
                 ⑤ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;из рабочего
@@ -95,7 +95,7 @@ function MyActiv() {
                 </p>
                 <h2 className="my-activ__footer_block-title">ВНЕ РАБОТЫ</h2>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="my-activ__red-block"></div>
         </div>
@@ -147,8 +147,8 @@ function MyActiv() {
                 </p>
               </div>
             </div>
-            <p className="my-activ__info_subtitle">ПИШУ КОД</p>
-            <div className="my-activ__footer">
+            {/* <p className="my-activ__info_subtitle">ПИШУ КОД</p> */}
+            {/* <div className="my-activ__footer">
               <h2 className="my-activ__footer_block-title"></h2>
 
               <div className="my-activ__footer_block">
@@ -174,9 +174,11 @@ function MyActiv() {
                   &emsp;&emsp;по рабочему вопросу есть <br />
                   &emsp;&emsp;несколько ссылок
                 </p>
-                <p>TG (Предпочитаю), FB, TWITTER и INSTA</p>
+                <p className="my-activ__footer_block-contacts">
+                  TG (Предпочитаю), FB, TWITTER и INSTA
+                </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="my-activ__red-block"></div>
         </div>

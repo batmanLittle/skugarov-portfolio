@@ -6,7 +6,7 @@
 }
 
 .portfolio__photo {
-  position: absolute;
+
   margin: auto;
   position: absolute;
   top: 171px;
@@ -33,11 +33,17 @@
 }
 
 .portfolio__title_two {
+  max-width: 100%;
   z-index: 3;
+  padding-left: 0;
+  padding-right: 0px;
+  text-align: center;
+
 }
 
 .portfolio__title_three {
   z-index: 2;
+  
 }
 
 .portfolio__title_text-write {
@@ -139,9 +145,8 @@
   }
 
   .portfolio__title_two {
-    width: max-content;
     z-index: 3;
-    margin-left: 10px;
+    margin-left: auto;
     margin-bottom: -8px;
     margin-right: 15px;
   }
