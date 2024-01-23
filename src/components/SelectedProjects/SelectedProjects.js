@@ -17,7 +17,9 @@ function SelectedProjects() {
             <p>Каждый ссылка - это результат работы</p>
             <p>нескольких людей или команды.</p>
             <p>Без них</p>
-            <p>ни один проект не увидел</p>
+            <p className="selected-projects__block-three_text-four">
+              ни один проект не увидел
+            </p>
             <p>бы света</p>
           </div>
         </div>

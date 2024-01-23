@@ -7,6 +7,7 @@ function App() {
   const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
+    // console.log("ffff");
     const handleResize = () => {
       const width = window.innerWidth;
 

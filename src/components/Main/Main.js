@@ -7,12 +7,11 @@ import FreeTime from "../FreeTime/FreeTime";
 function Main() {
   return (
     <div className="main">
-      {/* <Portfolio />
-      <FreeTime /> */}
+      <Portfolio />
+      <FreeTime />
       <MyActiv />
-      {/* 
-      
-      <SelectedProjects /> */}
+
+      <SelectedProjects />
     </div>
   );
 }

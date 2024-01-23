@@ -1,7 +1,6 @@
 .my-activ {
   display: flex;
   justify-content: space-between;
-
 }
 
 .my-activ__red-block {
@@ -9,13 +8,12 @@
   width: 12px;
   height: 685px;
   z-index: 1;
-  
 }
 
 .my-activ__info {
   display: flex;
   flex-direction: column;
-
+  position: relative;
 }
 
 .my-activ__header {
@@ -50,10 +48,9 @@
 
 .my-activ__header_profession {
   background-color: var(--red-color);
-  margin-right: -28px;
-  margin-left: auto;
-  margin-bottom: -3px;
-  margin-top: auto;
+  position: absolute;
+  top: 84px;
+  left: 79.2%;
 }
 
 .my-activ__header_underline {
@@ -134,12 +131,12 @@
   .my-activ {
     margin-top: 9px;
     position: relative;
-
   }
 
-  .my-activ__info{
+  .my-activ__info {
     width: 100%;
   }
+
   .my-activ__red-block {
     width: 5px;
     height: 750px;
@@ -149,7 +146,6 @@
   }
 
   .my-activ__header_block-two_paragraph {
-
     padding: 0px;
   }
 
@@ -204,7 +200,6 @@
     margin-left: 18%;
     margin-top: 5px;
     gap: 6px;
-    
   }
 
   .my-activ__footer {
@@ -243,7 +238,7 @@
     background-color: inherit;
     margin-bottom: 12px;
   }
-  .my-activ__footer_block-contacts{
+  .my-activ__footer_block-contacts {
     padding: 0px;
   }
 }

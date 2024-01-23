@@ -22,6 +22,10 @@
   display: flex;
 }
 
+.selected-projects__block-three_text-four {
+  margin-left: 61px;
+}
+
 .selected-projects__block-three_text {
   margin-top: 14px;
 }
@@ -30,7 +34,7 @@
   z-index: 5;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 47px;
+  column-gap: 42px;
   row-gap: 0px;
   position: relative;
   margin-top: -111px;
@@ -143,14 +147,12 @@
     background-color: rgba(219, 58, 47, 1);
     margin-left: auto;
     margin-top: -228px;
-    margin-right: -5px;
   }
 
   .card__burgundy {
     background-color: rgba(74, 41, 48, 1);
     margin-left: auto;
     margin-top: -228px;
-    margin-right: -5px;
   }
 
   .card__block-one_text-three {
