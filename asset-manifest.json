@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skugarov-portfolio/static/css/main.97ce997f.css",
+    "main.css": "/skugarov-portfolio/static/css/main.41e4cc56.css",
     "main.js": "/skugarov-portfolio/static/js/main.b158e475.js",
     "static/js/787.48850637.chunk.js": "/skugarov-portfolio/static/js/787.48850637.chunk.js",
     "static/media/my-activ_foto1.svg": "/skugarov-portfolio/static/media/my-activ_foto1.511cd2489eff98d12907.svg",
@@ -15,12 +15,12 @@
     "index.html": "/skugarov-portfolio/index.html",
     "static/media/my-activ_foto2-mobile.svg": "/skugarov-portfolio/static/media/my-activ_foto2-mobile.c866268b62a34a89421f.svg",
     "static/media/arrow.svg": "/skugarov-portfolio/static/media/arrow.1b13774585c1652d5f31ce3bac840097.svg",
-    "main.97ce997f.css.map": "/skugarov-portfolio/static/css/main.97ce997f.css.map",
+    "main.41e4cc56.css.map": "/skugarov-portfolio/static/css/main.41e4cc56.css.map",
     "main.b158e475.js.map": "/skugarov-portfolio/static/js/main.b158e475.js.map",
     "787.48850637.chunk.js.map": "/skugarov-portfolio/static/js/787.48850637.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ce997f.css",
+    "static/css/main.41e4cc56.css",
     "static/js/main.b158e475.js"
   ]
 }
