@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/skugarov-portfolio/static/css/main.97ce997f.css",
+    "main.js": "/skugarov-portfolio/static/js/main.b158e475.js",
+    "static/js/787.48850637.chunk.js": "/skugarov-portfolio/static/js/787.48850637.chunk.js",
+    "static/media/my-activ_foto1.svg": "/skugarov-portfolio/static/media/my-activ_foto1.511cd2489eff98d12907.svg",
+    "static/media/my-activ_foto2.svg": "/skugarov-portfolio/static/media/my-activ_foto2.199b459533396e683453.svg",
+    "static/media/my-activ_foto1-mobile.svg": "/skugarov-portfolio/static/media/my-activ_foto1-mobile.13e4cf298371d6e52f80.svg",
+    "static/media/Aeroport-regular.otf": "/skugarov-portfolio/static/media/Aeroport-regular.2e984349412564ebb0dc.otf",
+    "static/media/photo-portfolio.svg": "/skugarov-portfolio/static/media/photo-portfolio.9606c23fbdd539d5224d9b49cf976aa6.svg",
+    "static/media/Aeroport-regular.woff": "/skugarov-portfolio/static/media/Aeroport-regular.9dece734419cc44156f6.woff",
+    "static/media/barcode.svg": "/skugarov-portfolio/static/media/barcode.134f5873c9ab549137eedf3779feb47b.svg",
+    "static/media/free-time.svg": "/skugarov-portfolio/static/media/free-time.eb512b578251e717d376.svg",
+    "static/media/банк.svg": "/skugarov-portfolio/static/media/банк.3efd03be33c49b0766ac.svg",
+    "index.html": "/skugarov-portfolio/index.html",
+    "static/media/my-activ_foto2-mobile.svg": "/skugarov-portfolio/static/media/my-activ_foto2-mobile.c866268b62a34a89421f.svg",
+    "static/media/arrow.svg": "/skugarov-portfolio/static/media/arrow.1b13774585c1652d5f31ce3bac840097.svg",
+    "main.97ce997f.css.map": "/skugarov-portfolio/static/css/main.97ce997f.css.map",
+    "main.b158e475.js.map": "/skugarov-portfolio/static/js/main.b158e475.js.map",
+    "787.48850637.chunk.js.map": "/skugarov-portfolio/static/js/787.48850637.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97ce997f.css",
+    "static/js/main.b158e475.js"
+  ]
+}
