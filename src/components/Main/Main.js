@@ -8,8 +8,10 @@ function Main() {
   return (
     <div className="main">
       <Portfolio />
-      <FreeTime />
-      <MyActiv />
+      <div>
+        <FreeTime />
+        <MyActiv />
+      </div>
 
       <SelectedProjects />
     </div>

@@ -3,7 +3,13 @@
   margin-left: auto;
 }
 .free-time {
-  z-index: 5;
+  /* z-index: 5; */
+  position: sticky;
+  top: 10px;
+}
+
+.free-time__fixed {
+  position: fixed;
 }
 
 @media screen and (max-width: 768px) {

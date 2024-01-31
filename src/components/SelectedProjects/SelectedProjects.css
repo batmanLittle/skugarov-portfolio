@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 99px;
+  position: sticky;
+  top: 2px;
 }
 
 .selected-projects {

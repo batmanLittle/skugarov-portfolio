@@ -1,6 +1,8 @@
 .my-activ {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 12px;
 }
 
 .my-activ__red-block {
